@@ -1,4 +1,38 @@
 body{
-    background-color:silver;
+    background-color: silver;
+    font-family: Georgia, serif;
+    margin-left: 20px;
 }  
+.box1{
+    background-image: url('../images/background1.jpg');
+    margin-top:0px;
+}
 
+h1{
+    color: teal;
+    text-align: center;
+}
+.punshline{
+    from {background-color:red;}
+    to {background-color: yellow;}
+}
+.mypic{
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+
+  .container{
+    text-align: center;
+  }
+a{
+    color: blue;
+    
+}
+
+a:hover{
+    color: brown;
+}
