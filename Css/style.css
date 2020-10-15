@@ -1,11 +1,12 @@
 body{
-    background-color: silver;
+    background-color: grey;
     font-family: Georgia, serif;
     margin-left: 20px;
 }  
 .box1{
     background-image: url('../images/background1.jpg');
-    margin-top:0px;
+    padding-top:0px;
+    padding-left: 1px;
 }
 
 h1{
@@ -13,13 +14,14 @@ h1{
     text-align: center;
 }
 .punshline{
-    from {background-color:red;}
-    to {background-color: yellow;}
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+
 }
 .mypic{
     height: 250px;
     border-radius: 15px;
     margin-top: 10px;
+    filter:sepia(50%);
 }
 table, th, td {
     border: 1px solid black;
