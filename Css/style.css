@@ -7,22 +7,28 @@ body{
     background-image: url('../images/background1.jpg');
     padding-top:0px;
     padding-left: 1px;
+    text-align: center;
 }
 
 h1{
     color: teal;
     text-align: center;
 }
-.punshline{
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 
-}
 .mypic{
-    height: 250px;
+    height: 300px;
     border-radius: 15px;
     margin-top: 10px;
     filter:sepia(50%);
+    left:0;    
 }
+.punshline{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-align: center;
+}
+
+}
+
 table, th, td {
     border: 1px solid black;
   }
